@@ -1,0 +1,26 @@
+{
+  "name": "data-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --port 1234 & node proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryNovoa/data-visualization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenryNovoa/data-visualization/issues"
+  },
+  "homepage": "https://github.com/HenryNovoa/data-visualization#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.2.1"
+  }
+}
